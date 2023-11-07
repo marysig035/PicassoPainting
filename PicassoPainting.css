@@ -31,6 +31,17 @@
     height: 50px;
 }
 
+.Grid-container4{
+    display: grid;
+    grid: repeat(1, 12vw) / auto-flow 20vw;
+}
+
+.Grid-container4 > div {
+    background-color: aquamarine;
+    width: 19vw;
+    height: 10vh;
+}
+
 @media (max-width: 768px){
     .Grid-container{
         margin: 0 auto !important;
